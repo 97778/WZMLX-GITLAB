@@ -36,6 +36,7 @@ python-dotenv
 python-magic
 qbittorrent-api
 requests
+requests[socks]
 speedtest-cli
 telegraph
 tenacity
