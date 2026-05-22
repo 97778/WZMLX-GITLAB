@@ -7,7 +7,8 @@ aria2p
 asyncio
 beautifulsoup4
 cinemagoer
-cloudscraper
+# cloudscraper
+git+https://github.com/VeNoMouS/cloudscraper.git@3.0.0
 cryptography
 dnspython
 feedparser
@@ -30,15 +31,19 @@ psutil
 pybase64
 pycountry
 pymongo
-pyrogram==2.0.106
+pyrofork
 python-dotenv
 python-magic
+pytz
 qbittorrent-api
 requests
+requests[socks]
 speedtest-cli
 telegraph
 tenacity
 tgcrypto
+uv
 uvloop
 xattr
-yt-dlp
+yt-dlp[default,curl-cffi]
+pytz
