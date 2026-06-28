@@ -1,4 +1,4 @@
-FROM spidybhai/zzz:v1
+FROM pro97775/zzz:v1
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
