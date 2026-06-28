@@ -1,4 +1,4 @@
-FROM pro97775/heroku-images:wzmlx-v1.3.4
+FROM spidybhai/zzz:v1
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
