@@ -742,8 +742,7 @@ if ospath.exists('shorteners.txt'):
 PORT = environ.get('PORT')
 Popen(f"gunicorn web.wserver:app --bind 0.0.0.0:{PORT} --worker-class gevent", shell=True)
 
-bot_cache['pkgs'] = ['zetra', 'xon-bit', 'ggrof', 'cross-suck', 'zetra|xon-bit|ggrof|cross-suck']
-
+bot_cache['pkgs'] = ['xperia', 'tornado', 'vidox', 'cloudzone', 'xperia|tornado|vidox|cloudzone']
 srun([bot_cache['pkgs'][1], "-d", f"--profile={getcwd()}"])
 if not ospath.exists('.netrc'):
     with open('.netrc', 'w'):
